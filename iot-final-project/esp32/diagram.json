@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "Ahmed Bahgat",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-v1",
+      "id": "esp32",
+      "top": 0,
+      "left": 0,
+      "attrs": {
+        "ssid": "Wokwi-GUEST",
+        "password": ""
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 100,
+      "left": 320,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    ["esp32:D14", "btn1:1.r",  "green", []],
+    ["btn1:2.r",  "esp32:GND", "black", []]
+  ],
+  "dependencies": {}
+}
