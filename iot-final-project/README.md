@@ -11,6 +11,7 @@ stored in a database, and displayed on a live chart.
 ---
 
 ## Project Structure
+```
 iot-final-project/
 ├── esp32/
 │ ├── src/
@@ -23,7 +24,7 @@ iot-final-project/
 │ ├── game_monitor.py # MQTT subscriber + database + live chart
 │ └── requirements.txt # Python dependencies
 └── README.md
-
+```
 ---
 
 ## How It Works
