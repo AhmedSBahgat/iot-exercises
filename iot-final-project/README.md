@@ -40,18 +40,6 @@ Python App (PC)
 
 ---
 
-## Scoring Criteria Met
-
-| Criteria | Points | Implementation |
-|----------|--------|----------------|
-| Sensor + Actuator | 10 | Button (input) + LED (output) |
-| Communication | 30 | ESP32 ↔ Python via MQTT over WiFi |
-| Database + Visualization | 50 | SQLite stores scores + matplotlib live chart |
-
-**Total: 50 points**
-
----
-
 ## Hardware (Simulated in Wokwi)
 
 | Component | Pin |
